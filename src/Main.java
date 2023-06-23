@@ -12,14 +12,14 @@ public class Main {
         System.out.println("Задача 1");
         int[] easyNumbers = {1, 2, 3};
         double[] doubles = {1.57, 7.654, 9.986};
-        int[] myMassive = new int[15];
+        int[] myMassive = {1,2,3,4,5,};
     }
 
     public static void task2() {
         System.out.println("Задача 2 ");
         int[] easyNumbers = {1, 2, 3};
         double[] doubles = {1.57, 7.654, 9.986};
-        int[] myMassive = new int[15];
+        int[] myMassive = {1,2,3,4,5};
         System.out.println(Arrays.toString(easyNumbers));
         System.out.println(Arrays.toString(doubles));
         System.out.println(Arrays.toString(myMassive));
@@ -29,7 +29,7 @@ public class Main {
         System.out.println("Задача 3");
         int[] easyNumbers = {1, 2, 3};
         double[] doubles = {1.57, 7.654, 9.986};
-        int[] myMassive = new int[15];
+        int[] myMassive = {1,2,3,4,5};
         for (int i = easyNumbers.length - 1; i >= 0; i--) {
             if (i != 0) {
                 System.out.print(easyNumbers[i] + ",");
@@ -60,10 +60,9 @@ public class Main {
         for (int i = 0; i < easyNumbers.length; i++) {
             if (easyNumbers[i] % 2 != 0) {
                 easyNumbers[i]= easyNumbers[i]+1;
-                System.out.println(Arrays.toString(easyNumbers));
-
             }
         }
+        System.out.println(Arrays.toString(easyNumbers));
     }
 }
 
